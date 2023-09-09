@@ -1,0 +1,13 @@
+[21-Apr-2023 14:08:33 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/ssheaven/exercises.ssheavenmusic.com/finalproject/library/useful-stuff.php:210
+Stack trace:
+#0 /home/ssheaven/exercises.ssheavenmusic.com/finalproject/library/useful-stuff.php(210): PDOStatement->execute(Array)
+#1 /home/ssheaven/exercises.ssheavenmusic.com/final_project_wombat_games/show-games.php(17): getWombatForGameWithId(28)
+#2 {main}
+  thrown in /home/ssheaven/exercises.ssheavenmusic.com/finalproject/library/useful-stuff.php on line 210
+[21-Apr-2023 14:10:57 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/ssheaven/exercises.ssheavenmusic.com/finalproject/library/useful-stuff.php:210
+Stack trace:
+#0 /home/ssheaven/exercises.ssheavenmusic.com/finalproject/library/useful-stuff.php(210): PDOStatement->execute(Array)
+#1 /home/ssheaven/exercises.ssheavenmusic.com/final_project_wombat_games/show-games.php(17): getWombatForGameWithId(22)
+#2 {main}
+  thrown in /home/ssheaven/exercises.ssheavenmusic.com/finalproject/library/useful-stuff.php on line 210
+[21-Apr-2023 14:11:45 UTC] PHP Warning:  Undefined variable $pageTitle in /home/ssheaven/exercises.ssheavenmusic.com/final_project_wombat_games/head.php on line 3
